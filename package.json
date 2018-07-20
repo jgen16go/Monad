@@ -1,0 +1,27 @@
+{
+  "name": "Monads",
+  "version": "1.0.0",
+  "description": "Monads",
+  "main": "maybe.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgen16go/Monad.git"
+  },
+  "author": "jgen16go <asai.work.usr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "notify": true,
+    "testRegex": "./.+\\.test\\.js$",
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage"
+  }
+}
