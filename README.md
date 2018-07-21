@@ -58,7 +58,3 @@ const left = _do(Either, function*() {
   return c
 })
 ```
-
-fin.
-fin.
-fin.
