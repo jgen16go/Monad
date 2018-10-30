@@ -1,4 +1,4 @@
-import Either from './either'
+import { Either } from './either'
 import _do from './do'
 import pipe from './pipe'
 

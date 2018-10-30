@@ -1,6 +1,6 @@
 const isUndefOrNullable = (x) => x === null || x === undefined
 
-class Maybe {
+export class Maybe {
   constructor(_v) {
     this.v = _v
   }
@@ -24,4 +24,5 @@ class Maybe {
   }
 }
 
-export default Maybe
+export const Just = Maybe.just
+export const Nothing = Maybe.nothing

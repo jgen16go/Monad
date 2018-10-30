@@ -1,6 +1,6 @@
 const isUndefOrNullable = (x) => x === null || x === undefined
 
-class Either {
+export class Either {
   constructor(_l, _r) {
     this.l = _l
     this.r = _r
@@ -28,4 +28,5 @@ class Either {
   }
 }
 
-export default Either
+export const Right = Either.right
+export const Left = Either.left

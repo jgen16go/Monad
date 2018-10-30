@@ -1,4 +1,4 @@
-import Maybe from './maybe'
+import { Maybe } from './maybe'
 import _do from './do'
 import pipe from './pipe'
 
